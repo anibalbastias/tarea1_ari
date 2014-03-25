@@ -11,6 +11,7 @@ Los archivos *.h contienen las declaraciones e implementaciones de las funciones
 los registros de cada bloque del disco Blando. El archivo Makefile contiene las sentencias para compilar,
 crear los objetos y compilar la aplicacion.
 
+```C
 -- Tarea1
     -- main.c
     -- head.h
@@ -19,6 +20,7 @@ crear los objetos y compilar la aplicacion.
     -- head_disco_bland.h
     -- FAT
     -- Makefile
+```
 
 ## Modo de Compilacion
 
