@@ -26,16 +26,22 @@ crear los objetos y compilar la aplicacion.
 
 Para compilar la tarea, ir a traves del terminal de Unix al directorio de la tarea y escribir los comandos:
 
-* cd /Tarea1/
-* make
+```unix
+> cd /Tarea1/
+> make
+```
 
 Para borrar los objetos y ejecutable, escribir:
 
-* make clean
+```unix
+> make clean
+```
 
 ## Modo de Ejecucion
 
 Para ejecutar la tarea, ir a traves del terminal unix al directorio de la tarea y escribir el comando:
 
-* cd /Tarea1/
-* ./tarea1
+```unix
+> cd /Tarea1/
+> ./tarea1
+```
