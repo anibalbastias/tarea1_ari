@@ -15,15 +15,22 @@ void ingresar_archivo()
 	FILE *fp;
 
  	char caracter;
+ 	int cant_bloques;
 
  	fp = fopen ("FAT", "r+");
 
  	printf("\nIngrese nombre de archivo: ");
+ 	getchar();
+ 	if(scanf("%c",&caracter) == 1);
 
- 	while((caracter = getchar()) != '\n')
- 	{
- 		printf("%c", fputc(caracter, fp));
- 	}
+ 	printf("\nIngrese cantidad de bloques que ocupa el archivo: ");
+ 	getchar();
+    if(scanf("%d",&cant_bloques) == 1);
+
+ 	//while((caracter = getchar()) != '\n')
+ 	//{
+ 		printf("%c %d", fputc(caracter, fp), fputc(cant_bloques, fp));
+ 	//}
 
  	fclose ( fp );
 

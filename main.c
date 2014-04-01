@@ -12,8 +12,6 @@
 #include "head_circ_list.h"
 #include "head_disco_blando.h"
 
-#define EXIT_SYSTEM 0
-
 // Funcion Main de la Aplicacion
 int main(void)
 {
@@ -53,7 +51,7 @@ int main(void)
 		}
 		getchar();
 	}
-	while(opcion != 1 && opcion != 2 && opcion != 3 && opcion != 4);
+	while(opcion < 0 || opcion > 5);
 
 	return EXIT_SYSTEM;
 }
